@@ -1,9 +1,9 @@
 # Sich.io
 
 ### Description
-PWA which helps ukrainian army and social organizations to defeat enemy and recover own lands by donation system.
+PWA which helps ukrainian army and social organizations to defeat enemy and recover own lands by donation system.  
 
-### Stack
+### Stack 
 Client: React, JS, routing with **wouter**.
 State management: Context API with persisting data in cookies, stores on **zustand** and state-machine on **xstate**
 Server: NodeJS, Express, Socket.IO, GraphQL, bcrypt, html-pdf
