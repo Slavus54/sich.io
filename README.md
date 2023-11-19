@@ -5,7 +5,7 @@ PWA which helps ukrainian army and social organizations to defeat enemy and reco
 
 ### Stack 
 Client: **React**, mini-libraries on **JS** (ES2023), routing with **Wouter**.  
-State management: **Context API** with persisting data in cookies, stores on **Zustand** and state-machine on **Xstate**.  
+State management: **Context API** with persisting data in cookies, stores on **Zustand** and state-machine on **XState**.  
 Server: **NodeJS**, **Express**, **Socket.IO**, **GraphQL**, bcrypt, html-pdf.  
 QA: unit tests on **Jest**.  
 CI/CD: very soon.  
