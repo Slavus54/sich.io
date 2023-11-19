@@ -820,7 +820,7 @@ apollo_start(typeDefs, resolvers, app)
 
 const io = new Server(server, {
     cors: {
-        origin: 'http://localhost:3000'
+        origin: 'https://655a15470306dc3c2e94a944--sichwebapp.netlify.app'
     }
 })
 
