@@ -1,6 +1,7 @@
 const app = require('express')()
 const server = require('http').createServer(app).listen(5000)
 const {Server} = require('socket.io')
+const foundations = require('./foundations.json')
 const {gql} = require('apollo-server-express')
 
 const PORT = process.env.PORT || 4000
@@ -879,6 +880,10 @@ app.post('/update-password', async (req, res) => {
 
 app.post('/meeting-waypoints', async (req, res) => {
     generate_pdf(res, 'result', req.body)
+})
+
+app.get('/foundations', async (req, res) => {
+    res.send(foundations)
 })
 
 app.listen(PORT, () => console.log(`Server started on ${PORT} port`))

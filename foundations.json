@@ -1,0 +1,36 @@
+[
+    {
+        "title": "Masterladki",
+        "category": "Construction",
+        "sources": [
+            {
+                "title": "ПриватБанк",
+                "address": 4731219644926135
+            },
+            {
+                "title": "Monobank",
+                "address": 5375414143271780
+            }     
+        ],
+        "videos": ["https://www.youtube.com/embed/isXOmoTXfGs", "https://www.youtube.com/embed/uGz2IE3PVL0", "https://www.youtube.com/embed/SY2di8WCfiA", "https://www.youtube.com/embed/tZkPafM9u8E"]
+    },
+    {
+        "title": "Alexey Arestovich",
+        "category": "Army",
+        "sources": [
+            {
+                "title": "Monobank EURO",
+                "address": 5375419905590814
+            },
+            {
+                "title": "Monobank UAH",
+                "address": 5375411210288911
+            },
+            {
+                "title": "Monobank",
+                "address": "https://send.monobank.ua/jar/6eQaAWNcHW"
+            }   
+        ],
+        "videos": ["https://www.youtube.com/embed/Zd7BIK7J8DI", "https://www.youtube.com/embed/jAbLc2aIGBQ", "https://www.youtube.com/embed/79RT5x_2_6o", "https://www.youtube.com/embed/9UjLqI4uC4c"]
+    }
+]
