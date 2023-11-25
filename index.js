@@ -882,6 +882,31 @@ app.post('/meeting-waypoints', async (req, res) => {
     generate_pdf(res, 'result', req.body)
 })
 
+app.get('/anthem', async (req, res) => {
+    res.send(`
+        Glorious spirit of Ukraine shines and lives forever
+        Blessed by Fortune brotherhood will stand up together
+        Like the dew before the sun enemies will fade
+        We will further rule and prosper in our promised land
+        We will lay our soul and body for the cherished freedom
+        Cossack blood will raise the nation of the joyous people
+        For the liberty the folk strives ardently from San to Don
+        And will let no alien power in our common home
+        Aged Dnieper and Black Sea arm in arm rejoice
+        And Ukraine will see gaylight and live by Fortune's choise
+        We will lay our soul and body for the cherished freedom
+        Cossack blood will raise the nation of the joyous people
+        Passion and hard-working hands prove bright future true
+        Song of freedom , lous and clear , guides us all way through
+        Over mountains and steppes it flows , over ages told
+        Valorous Ukraine stands strong in a thriving world
+        We will lay our soul and body for the cherished freedom
+        Cossack blood will raise the nation of the joyous people
+        We will lay our soul and body for the cherihsed freedom
+        Cossack blood will raise the nation of the joyous people
+    `)
+})
+
 app.get('/foundations', async (req, res) => {
     res.send(foundations)
 })
