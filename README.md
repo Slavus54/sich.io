@@ -18,10 +18,14 @@ Client side code will be published in repo "sich.io-client" in 2.0 version.
 You can try Foundations API - https://sich-io.onrender.com
 
 List of foundations
-~~~  /foundations ~~~
+~~~
+/foundations
+~~~
 
 National Anthem of Ukraine (ENG)  
-~~~  /anthem ~~~ 
+~~~
+/anthem
+ ~~~ 
 
 Download server and run it on port 4000 with a command: 
 
