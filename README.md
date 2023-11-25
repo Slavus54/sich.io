@@ -27,7 +27,7 @@ National Anthem of Ukraine (ENG)
 /anthem
  ~~~ 
 
-Download server and run it on port **4000** with a command: 
+Download server and run it on **port 4000** with a command: 
 
 ~~~ 
 npm run start  
