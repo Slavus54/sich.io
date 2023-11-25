@@ -14,8 +14,7 @@ Deployment: Render + Netify.
 Client side code will be published in repo "sich.io-client" in 2.0 version.  
 
 You can download server and run it
-
+~~~ 
 npm run start  
- 
-
+~~~ 
 Version 1.1 - https://655a15470306dc3c2e94a944--sichwebapp.netlify.app  
