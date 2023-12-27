@@ -1,19 +1,20 @@
-# Sich.io
+## Sich.io
 
 ### Description
+
 PWA which helps ukrainian army and social organizations to defeat enemy and recover own lands by donation system. 
 People in EU and USA (soon) can make a purchases with % converting into help-points.
 Help-points is currency equal 1 USD allows to pay organizations in Foundations API from your card.
 
 ### Stack 
-Client: **React**, mini-libraries on **JS** (ES2023), routing with **Wouter**.  
-State management: **Context API** with persisting data in cookies, stores on **Zustand** and state-machine on **XState**.  
-Server: **NodeJS**, **Express**, **Socket.IO**, **GraphQL**, bcrypt, html-pdf.  
-QA: unit tests on **Jest**.  
-CI/CD: *very soon*.  
-Deployment: Render + Netify.  
 
-Client side code will be published in repo "sich.io-client" in 2.0 version.  
+Client: **React**, mini-libraries, routing with **Wouter**.  
+State management: **Context API** with persisting data in cookies, stores on **Zustand** and state-machine on **XState**.  
+Server: **NodeJS**, **Express**, **Socket.IO**, **GraphQL**, **bcrypt** for password hashing, **html-pdf**.  
+QA: unit tests on **Jest**.   
+Performance test: Lighthouse Report.
+Deployment: Render + Netify.  
+![sich lighthouse](https://github.com/Slavus54/sich.io/assets/54140819/e61b08df-924a-47bc-a66a-00de5f104823)
 
 You can try Foundations API - https://sich-io.onrender.com
 
